@@ -9,6 +9,7 @@
   "optional_dependencies": {
     "dev": ["pytest>=8.3.2"],
     "npu": ["triton-ascend>=3.2.1"],
+    "catlass": ["ascend-catlass-dsl>=2.2.1; python_version<'3.14'"],
     "mlu": ["triton>=3.2.0"],
     "ilu": []
   }

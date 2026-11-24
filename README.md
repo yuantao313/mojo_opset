@@ -35,6 +35,7 @@ y = functions.silu(x)  # Uses configuration for the detected target.
 y_ref = functions.silu(x, implementation="torch")
 norm = modules.RMSNorm(1024, implementation="triton").npu()
 y = norm(x)
+y = functions.mm(x, x.T, implementation="catlass")  # A5 only; see operator support.
 ```
 
 The main package contains Python/Triton code. The `npu` extra installs the 910B

@@ -19,6 +19,7 @@ _PROVIDERS = {
     ("npu.a5", "native"): "mojo_opset.kernels.npu_a5_native",
     ("npu.a2", "unic"): "mojo_opset.kernels.npu_a2_unic",
     ("npu.a5", "unic"): "mojo_opset.kernels.npu_a5_unic",
+    ("npu.a5", "catlass"): "mojo_opset.kernels.npu_a5_catlass",
     ("ilu.generic", "triton"): "mojo_opset.kernels.ilu_triton",
     ("ilu.generic", "ixformer"): "mojo_opset.kernels.ilu_ixformer",
     ("mlu.generic", "triton"): "mojo_opset.kernels.mlu_triton",
