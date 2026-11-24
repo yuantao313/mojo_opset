@@ -65,6 +65,8 @@ OPS = {
     "swa_infer": "attention",
     "native_swa_infer": "attention",
     "rope": "rope",
+    "mm": "matmul",
+    "matmul": "matmul",
 }
 
 
